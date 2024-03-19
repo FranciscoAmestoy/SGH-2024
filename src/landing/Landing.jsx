@@ -1,12 +1,14 @@
-import './Landing.css'
+import "./Landing.css";
+import Login from "../login/Login";
 
 function Landing() {
   return (
-  <div className="landingCanvas">
-    <div className='login'>Landing</div>
-  </div>
-    
-  )
+    <>
+      <div className="landingCanvas">
+        <Login />
+      </div>
+    </>
+  );
 }
 
-export default Landing
+export default Landing;

@@ -1,13 +1,12 @@
-import './App.css'
-import Landing from './landing/Landing'
+import "./App.css";
+import Landing from "./landing/Landing";
 
 function App() {
-
   return (
     <>
-    <Landing />
+      <Landing />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
