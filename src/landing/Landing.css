@@ -1,0 +1,16 @@
+.landingCanvas {
+    border: 2px solid magenta;
+    max-width: 90vw;
+    max-height: 90vh;
+    min-width: 90vw;
+    min-height: 90vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+div {
+    border: 2px solid black;
+}
