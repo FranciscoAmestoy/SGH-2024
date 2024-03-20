@@ -1,4 +1,5 @@
 .loginCanvas {
+  background-color: #65bad1;
   border: 2px solid rgb(2, 77, 2);
   min-width: 55vw;
   min-height: 35vw;
@@ -10,6 +11,16 @@
   font-size: 2.5vw;
 }
 
+.loginTitle {
+  position: absolute;
+  margin-top: -27vw;
+}
+
+.loginSubtitle {
+  position: absolute;
+  margin-top: -17vw;
+}
+
 .loginTexts {
   padding: 1vw;
 }
@@ -18,7 +29,14 @@
   padding: 1vw;
 }
 
-input {
+.loginInputText {
+  background-color: white;
+  color: black;
+  width: 21vw;
+  height: 2.2vw;
+}
+
+.loginInputPassword {
   background-color: white;
   color: black;
   width: 21vw;
@@ -30,7 +48,7 @@ button {
   height: 4vw;
 }
 
-.buttonText {
+.loginButtonText {
     font-size: 2.5vw;
 }
 
